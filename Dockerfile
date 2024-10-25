@@ -8,6 +8,6 @@ RUN npm ci
 
 COPY . .
 
-EXPOSE 8001
+EXPOSE 8004
 
 CMD ["npm", "start"]

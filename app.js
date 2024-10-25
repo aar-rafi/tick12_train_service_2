@@ -44,8 +44,8 @@ app.use(
 );
 
 // Importing the routes
-import ticketRoute from "./routes/ticket.route.js";
-app.use("/api/ticket", ticketRoute);
+import trainRoute from "./routes/train.route.js";
+app.use("/api/trains", trainRoute);
 
 // Default URL
 app.use("/", (req, res) => {
